@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "recipes": [
+    {"id":"stick","result":"stick","amount":4,"ingredients":{"planks":2},"requires_crafting_table":false},
+    {"id":"planks","result":"planks","amount":4,"ingredients":{"log_oak":1},"requires_crafting_table":false},
+    {"id":"crafting_table","result":"crafting_table","amount":1,"ingredients":{"planks":4},"requires_crafting_table":false},
+    {"id":"wooden_pickaxe","result":"wooden_pickaxe","amount":1,"ingredients":{"stick":3,"planks":2},"requires_crafting_table":true},
+    {"id":"wooden_axe","result":"wooden_axe","amount":1,"ingredients":{"stick":2,"planks":3},"requires_crafting_table":true},
+    {"id":"wooden_shovel","result":"wooden_shovel","amount":1,"ingredients":{"stick":2,"planks":2},"requires_crafting_table":true},
+    {"id":"furnace","result":"furnace","amount":1,"ingredients":{"cobblestone":8},"requires_crafting_table":true},
+    {"id":"torch","result":"torch","amount":4,"ingredients":{"coal":1,"stick":1},"requires_crafting_table":false},
+    {"id":"glass","result":"glass","amount":1,"ingredients":{"sand":6},"requires_crafting_table":true},
+    {"id":"stone_pickaxe","result":"stone_pickaxe","amount":1,"ingredients":{"stick":3,"cobblestone":3},"requires_crafting_table":true},
+    {"id":"iron_pickaxe","result":"iron_pickaxe","amount":1,"ingredients":{"stick":2,"iron_ingot":3},"requires_crafting_table":true},
+    {"id":"diamond_pickaxe","result":"diamond_pickaxe","amount":1,"ingredients":{"stick":2,"diamond":3},"requires_crafting_table":true}
+  ]
+}

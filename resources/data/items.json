@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "items": {
+    "grass_block":{"id":101,"name":"Grass Block","stack":64,"texture":"grass_top"},
+    "dirt":{"id":102,"name":"Dirt","stack":64,"texture":"dirt"},
+    "cobblestone":{"id":103,"name":"Cobblestone","stack":64,"texture":"stone"},
+    "sand":{"id":104,"name":"Sand","stack":64,"texture":"sand"},
+    "gravel":{"id":105,"name":"Gravel","stack":64,"texture":"gravel"},
+    "log_oak":{"id":106,"name":"Oak Log","stack":64,"texture":"log_oak"},
+    "leaves":{"id":107,"name":"Leaves","stack":64,"texture":"leaves_oak"},
+    "planks":{"id":108,"name":"Planks","stack":64,"texture":"planks_oak"},
+    "glass":{"id":109,"name":"Glass","stack":64,"texture":"glass"},
+    "coal":{"id":110,"name":"Coal","stack":64,"texture":"coal_ore"},
+    "iron_ingot":{"id":111,"name":"Iron Ingot","stack":64,"texture":"iron_ore"},
+    "gold_ingot":{"id":112,"name":"Gold Ingot","stack":64,"texture":"gold_ore"},
+    "diamond":{"id":113,"name":"Diamond","stack":64,"texture":"diamond_ore"},
+    "crafting_table":{"id":114,"name":"Crafting Table","stack":1,"texture":"crafting_table"},
+    "furnace":{"id":115,"name":"Furnace","stack":1,"texture":"furnace"},
+    "torch":{"id":116,"name":"Torch","stack":64,"texture":"torch"},
+    "snow":{"id":117,"name":"Snow","stack":64,"texture":"snow"},
+    "ice":{"id":118,"name":"Ice","stack":64,"texture":"ice"},
+    "stick":{"id":201,"name":"Stick","stack":64,"texture":"planks_oak"},
+    "wooden_pickaxe":{"id":301,"name":"Wooden Pickaxe","durability":59,"texture":"planks_oak"},
+    "stone_pickaxe":{"id":302,"name":"Stone Pickaxe","durability":132,"texture":"stone"},
+    "iron_pickaxe":{"id":303,"name":"Iron Pickaxe","durability":250,"texture":"iron_ore"},
+    "diamond_pickaxe":{"id":304,"name":"Diamond Pickaxe","durability":1561,"texture":"diamond_ore"},
+    "wooden_axe":{"id":305,"name":"Wooden Axe","durability":59,"texture":"planks_oak"},
+    "wooden_shovel":{"id":306,"name":"Wooden Shovel","durability":59,"texture":"planks_oak"},
+    "raw_porkchop":{"id":401,"name":"Raw Porkchop","stack":64,"texture":"meat"},
+    "cooked_porkchop":{"id":402,"name":"Cooked Porkchop","stack":64,"texture":"meat"},
+    "apple":{"id":403,"name":"Apple","stack":64,"texture":"apple"}
+  }
+}

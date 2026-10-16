@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "blocks": {
+    "0":  {"name":"air","id":0,"solid":false,"transparent":true,"droppable":false,"tool":"none","hardness":0.0,"texture":"none"},
+    "1":  {"name":"grass","id":1,"solid":true,"transparent":false,"droppable":true,"tool":"shovel","hardness":0.6,"texture":"grass_top","side_texture":"dirt","drop":"grass_block"},
+    "2":  {"name":"dirt","id":2,"solid":true,"transparent":false,"droppable":true,"tool":"shovel","hardness":0.5,"texture":"dirt","drop":"dirt"},
+    "3":  {"name":"stone","id":3,"solid":true,"transparent":false,"droppable":true,"tool":"pickaxe","hardness":1.5,"texture":"stone","drop":"cobblestone"},
+    "4":  {"name":"bedrock","id":4,"solid":true,"transparent":false,"droppable":false,"tool":"none","hardness":999,"texture":"bedrock","drop":"none"},
+    "5":  {"name":"sand","id":5,"solid":true,"transparent":false,"droppable":true,"tool":"shovel","hardness":0.5,"texture":"sand","drop":"sand"},
+    "6":  {"name":"gravel","id":6,"solid":true,"transparent":false,"droppable":true,"tool":"shovel","hardness":0.6,"texture":"gravel","drop":"gravel"},
+    "7":  {"name":"log_oak","id":7,"solid":true,"transparent":false,"droppable":true,"tool":"axe","hardness":2.0,"texture":"log_oak","drop":"log_oak"},
+    "8":  {"name":"leaves","id":8,"solid":false,"transparent":true,"droppable":true,"tool":"axe","hardness":0.2,"texture":"leaves_oak","drop":"leaves"},
+    "9":  {"name":"planks","id":9,"solid":true,"transparent":false,"droppable":true,"tool":"axe","hardness":1.0,"texture":"planks_oak","drop":"planks"},
+    "10": {"name":"glass","id":10,"solid":true,"transparent":true,"droppable":true,"tool":"none","hardness":0.3,"texture":"glass","drop":"glass"},
+    "11": {"name":"water","id":11,"solid":false,"transparent":true,"droppable":false,"tool":"bucket","hardness":0.0,"texture":"water","drop":"none"},
+    "12": {"name":"coal_ore","id":12,"solid":true,"transparent":false,"droppable":true,"tool":"pickaxe","hardness":3.0,"texture":"coal_ore","drop":"coal"},
+    "13": {"name":"iron_ore","id":13,"solid":true,"transparent":false,"droppable":true,"tool":"pickaxe","hardness":3.0,"texture":"iron_ore","drop":"iron_ingot"},
+    "14": {"name":"gold_ore","id":14,"solid":true,"transparent":false,"droppable":true,"tool":"pickaxe","hardness":3.0,"texture":"gold_ore","drop":"gold_ingot"},
+    "15": {"name":"diamond_ore","id":15,"solid":true,"transparent":false,"droppable":true,"tool":"pickaxe","hardness":3.0,"texture":"diamond_ore","drop":"diamond"},
+    "16": {"name":"crafting_table","id":16,"solid":true,"transparent":false,"droppable":true,"tool":"axe","hardness":2.5,"texture":"crafting_table","drop":"crafting_table"},
+    "17": {"name":"furnace","id":17,"solid":true,"transparent":false,"droppable":true,"tool":"pickaxe","hardness":3.5,"texture":"furnace","drop":"furnace"},
+    "18": {"name":"torch","id":18,"solid":false,"transparent":true,"droppable":true,"tool":"none","hardness":0.0,"texture":"torch","drop":"torch"},
+    "19": {"name":"snow","id":19,"solid":true,"transparent":false,"droppable":true,"tool":"shovel","hardness":0.2,"texture":"snow","drop":"snow"},
+    "20": {"name":"ice","id":20,"solid":true,"transparent":false,"droppable":true,"tool":"pickaxe","hardness":0.5,"texture":"ice","drop":"ice"}
+  }
+}

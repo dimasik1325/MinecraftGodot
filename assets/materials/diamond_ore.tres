@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3]
+[sub_resource type="Texture2D" id="Texture2D_0"]
+resource_local_to_scene = false
+resource_path = "res://assets/textures/diamond_ore.png"
+resource_name = "diamond_ore"
+[resource]
+albedo_texture = SubResource("Texture2D_0")
+uv_scale = Vector3(1, 1, 1)
+roughness = 0.8
+metallic = 0.0
+transparency = 0.0

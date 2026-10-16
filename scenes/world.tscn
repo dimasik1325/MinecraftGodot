@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/chunk_manager.gd" id="1_chunk"]
+[ext_resource type="Script" path="res://scripts/world/world_time.gd" id="2_time"]
+[ext_resource type="PackedScene" uid="uid://player" path="res://scenes/player.tscn" id="3_player"]
+
+[sub_resource type="DirectionalLight3D" id="DirectionalLight3D_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 60, 0)
+rotation_degrees = Vector3(-60, 0, 0)
+light_color = Color(1, 0.9, 0.7)
+light_energy = 1.0
+shadow_enabled = true
+
+[node name="World" type="Node3D"]
+
+[node name="ChunkManager" type="Node3D" parent="."]
+script = ExtResource("1_chunk")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 60, 0)
+rotation_degrees = Vector3(-60, 0, 0)
+light_color = Color(1, 0.9, 0.7)
+light_energy = 1.0
+shadow_enabled = true
+
+[node name="Time" type="Node" parent="."]
+script = ExtResource("2_time")
+day_length = 240.0
+
+[node name="Player" parent="." instance=ExtResource("3_player")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 40, 8)
